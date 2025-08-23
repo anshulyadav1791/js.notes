@@ -112,5 +112,12 @@ Loops are used to execute a piece of code again & again
       str.length  
    #### String Indices   <br>
       str[0], str[1], str[2] 
+      
+## Template Literals in JS
+A way to have embedded expession in strings
+`this is a template literal`
 
+### String Interpolation 
+ To create strings by doing substitution of placeholders
+  `string text ${expression} string text`
 
