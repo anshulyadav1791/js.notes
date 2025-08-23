@@ -1,30 +1,30 @@
- Our 1st JS Code
+# Our 1st JS Code
 Console.log is used to (print) a message to the console
 
 console.log("anshuprogrammer");
 
 
->>> Varibles in JS
+# Varibles in JS
 Varibles are containers for data
 
 memory1 = [data...], memory2 = [data...], memory3 = [data...] ...
 
->>>Varible Rules
-# Varible name are case secitive; "a" & "A" is different.
-# Only letters, digits, underscore(_) and $ is allowed. (not even space)
-# Only a letters, underscore(_) or $ should be 1st character.
-# Resrved words cannot be variable names.
+# Varible Rules
+ Varible name are case secitive; "a" & "A" is different.
+ Only letters, digits, underscore(_) and $ is allowed. (not even space)
+ Only a letters, underscore(_) or $ should be 1st character.
+ Resrved words cannot be variable names.
 
->>> let, var & const
-#  let: Varible cannot be re-declared but be updated. A block scope variable.
-#  var: Varible cannot be re-declared & updated. A globle scope variable.
-#  const: varible cannot be re-declared or updated. A block scope variable.   
+# let, var & const
+  let: Varible cannot be re-declared but be updated. A block scope variable.
+  var: Varible cannot be re-declared & updated. A globle scope variable.
+  const: varible cannot be re-declared or updated. A block scope variable.   
 
->>> Data Types in JS
-#  Number, String, Boolean, Uudefined, Null, BigInt, Syambol 
+# Data Types in JS
+  Number, String, Boolean, Uudefined, Null, BigInt, Syambol 
 
->>> Operator in JS
-#   Used to perform some operation on data
+# Operator in JS
+   Used to perform some operation on data
 
   > Arithmetic Operators
     +  -  *  /
@@ -38,14 +38,14 @@ memory1 = [data...], memory2 = [data...], memory3 = [data...] ...
     >, >=, <, <=
 
 
->>> Conditinal Statements
+# Conditinal Statements
     To implements some condition in the code
-#  If Statement
+  If Statement
       let color;
       if(mode === "dark-mode") {
         color = "black";
       } 
-# if-else Statement
+ if-else Statement
       let color;
       if(mode === "dark-mode") {
         color = "black";
@@ -53,9 +53,9 @@ memory1 = [data...], memory2 = [data...], memory3 = [data...] ...
         color = "white";
       }
     
->>> Operators in js
-#  Ternary Operators
-   condition ? True Output:false output
+# Operators in js
+  Ternary Operators
+>   condition ? True Output:false output
 
 Ex. age > 18 ? "adult" : "not adult";
     
