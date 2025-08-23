@@ -157,7 +157,7 @@ Q.. Prompt the user to enter their full name. Generale a ussername for them base
 eg: username = "_____", useremail = "______"
 
 ## Arrays in JS
-  Collections of items in Array
+  Collections of items in Array   <br>
     `let heroes = ["ironman", "hulk", "thor", "batman"` <br>
     `let marks = [96, 79, 95, 43, 44];` <br>
     `let info = ["rahul, 89, "Delhi"]`
