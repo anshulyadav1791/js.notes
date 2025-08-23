@@ -146,6 +146,20 @@ A way to have embedded expession in strings
     let str2 = "anshu";
     let add = str2.concat(str1);
     console.log(add);
-  #### str.replace(searchVal, newVal)
-
+  #### str.replace(searchVal, newVal) 
+    let str = "hellololo";
+    console.log(str.replaceAll("lo", "p"));
   #### str.charAt(idx)
+    let str = "hello";
+    console.log(str.charAt(2));
+## Let's Practice
+Q.. Prompt the user to enter their full name. Generale a ussername for them based on the input. Start username with @, followed by their full name and ending with the length.  <br>
+eg: username = "_____", useremail = "______"
+
+## Arrays in JS
+  Collections of items in Array
+    `let heroes = ["ironman", "hulk", "thor", "batman"` <br>
+    `let marks = [96, 79, 95, 43, 44];` <br>
+    `let info = ["rahul, 89, "Delhi"]`
+      
+
