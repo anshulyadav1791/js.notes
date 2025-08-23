@@ -125,6 +125,12 @@ A way to have embedded expession in strings
 
 ## String  Methods in JS
   These bare built-in functions to mainpulate a string
-  * str.toUpprCase()
-  * str.toLowerCase)()
+  #### str.toUpprCase()
+    let str = "anshu";
+    str = str.toUpperCase();
+    console.log(str)
+  #### str.toLowerCase)()
+    let str = "anshu";
+    str = str.toLowerCase();
+    console.log(str)
   * Str.trim()
