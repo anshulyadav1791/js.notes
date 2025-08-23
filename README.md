@@ -1,4 +1,4 @@
->>> Our 1st JS Code
+ Our 1st JS Code
 Console.log is used to (print) a message to the console
 
 console.log("anshuprogrammer");
