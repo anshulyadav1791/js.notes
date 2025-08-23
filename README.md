@@ -172,3 +172,14 @@ eg: username = "_____", useremail = "______"
     for(let ans = 0; ans < marks.length; ans++) {
     console.log(marks[ans])
     }
+
+## Let's Practice 
+Q.. For a given array with marks of students -> [98, 83, 83, 35, 43]  <br>
+Find the averge marks of the entie class.
+
+Q.. For a given array with prices of 5 items -> [98, 83, 83, 35, 43]  <br>
+All items have an offer 10% OFF on them. Change the array to store fimal price price after applying offer.
+
+
+
+    
