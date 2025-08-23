@@ -88,11 +88,11 @@ Loops are used to execute a piece of code again & again
         console.log(i);    
       }
 ## for- in Loop       
-     let student = {
-    name: "anshu",
-    age: 20,
-    cgpa: 7.5,
-    isPass: true
+    let student = {
+       name: "anshu",
+       age: 20,
+       cgpa: 7.5,
+       isPass: true
     };
     for (let key in student) {
     console.log(key, student[key])
