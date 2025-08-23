@@ -26,7 +26,7 @@ memory1 = [data...], memory2 = [data...], memory3 = [data...] ...
 ## Operator in JS
    Used to perform some operation on data
 
-  * Arithmetic Operators
+   Arithmetic Operators
    * +  -  *  /
     modulus, Exponention, Increment Decrement
 
