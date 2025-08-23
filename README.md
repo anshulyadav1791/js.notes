@@ -158,8 +158,10 @@ eg: username = "_____", useremail = "______"
 
 ## Arrays in JS
   Collections of items in Array   <br>
-    `let heroes = ["ironman", "hulk", "thor", "batman"` <br>
+    `let heroes = ["ironman", "hulk", "thor", "batman"];` <br>
     `let marks = [96, 79, 95, 43, 44];` <br>
-    `let info = ["rahul, 89, "Delhi"]`
-      
+    `let info = ["rahul, 89, "Delhi"];`
 
+  ### Array Indices
+  arr[0], arr[1], arr[2]...
+  `hello`  `anshu`  `yadav`
