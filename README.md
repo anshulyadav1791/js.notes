@@ -65,7 +65,7 @@ Loops are used to execute a piece of code again & again
        console.log("anshu")
     }
     
-# Infinite Loop in js: A Loop that never ends
+# Infinite Loop in JS: A Loop that never ends
     for (let i = 1; i >= 0; i++) {
        console.log(i);
        }
@@ -78,11 +78,26 @@ Loops are used to execute a piece of code again & again
 # do-while Loop
     let i = 1
     do { 
-       console.log("anshu");
+       console.log("anshu", i);
        i++;
-       } while (i <- 10);
-       
-
+       } while (i <= 10);
+# for-of loop
+     let str = "anshuprogrammer";
+     for ( let i of str) {
+        console.log(i);    
+      }
+# for- in Loop       
+     let student = {
+    name: "anshu",
+    age: 20,
+    cgpa: 7.5,
+    isPass: true
+    };
+    for (let key in student) {
+    console.log(key, student[key])
+    }
     
-
+# let's Practice
+  Q.. Print all even numbers form 0 to 100.
+  Q. Create a game where you start with any random game number. Ask the user to keep guessing the game number until the user enters correct value.
 
