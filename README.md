@@ -39,7 +39,7 @@ memory1 = [data...], memory2 = [data...], memory3 = [data...] ...
 
 
 # Conditinal Statements
-    To implements some condition in the code
+   To implements some condition in the code
  # If Statement
       let color;
       if(mode === "dark-mode") {
