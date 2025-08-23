@@ -133,4 +133,7 @@ A way to have embedded expession in strings
     let str = "anshu";
     str = str.toLowerCase();
     console.log(str)
-  * Str.trim()
+  #### Str.trim()
+    let str = "  anshu    ";
+    str = str.trim();
+    console.log(str)
