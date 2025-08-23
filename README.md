@@ -99,5 +99,5 @@ Loops are used to execute a piece of code again & again
     
 # let's Practice
   Q.. Print all even numbers form 0 to 100.
-  Q. Create a game where you start with any random game number. Ask the user to keep guessing the game number until the user enters correct value.
+  Q.. Create a game where you start with any random game number. Ask the user to keep guessing the game number       until the user enters correct value.
 
