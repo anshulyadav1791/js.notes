@@ -123,3 +123,8 @@ A way to have embedded expession in strings
  
      `string text ${expression} string text`
 
+## String  Methods in JS
+  These bare built-in functions to mainpulate a string
+  * str.toUpprCase()
+  * str.toLowerCase)()
+  * Str.trim()
