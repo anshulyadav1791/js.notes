@@ -130,10 +130,22 @@ A way to have embedded expession in strings
     str = str.toUpperCase();
     console.log(str)
   #### str.toLowerCase)()
-    let str = "anshu";
+    let str = "Anshu";
     str = str.toLowerCase();
     console.log(str)
-  #### Str.trim()
+  #### Str.trim()  //remove whitespaces
     let str = "  anshu    ";
     str = str.trim();
     console.log(str)
+
+  #### str.slice(start,end?)  //returns parts of string
+    let str = "hello";
+    console.log(str.slice(1));
+  #### str1.concat(srt1)  //joins str2 with str1
+    let str1 = "anshu";
+    let str2 = "anshu";
+    let add = str2.concat(str1);
+    console.log(add);
+  #### str.replace(searchVal, newVal)
+
+  #### str.charAt(idx)
