@@ -163,5 +163,12 @@ eg: username = "_____", useremail = "______"
     `let info = ["rahul, 89, "Delhi"];`
 
   ### Array Indices
-  arr[0], arr[1], arr[2]...
+  arr[0], arr[1], arr[2]...    <br>
   `hello`  `anshu`  `yadav`
+  
+### Looping aver an Array
+    let marks = ["anshu", "anshu1", "anshu2", "anshu4","anshu5"];
+
+    for(let ans = 0; ans < marks.length; ans++) {
+    console.log(marks[ans])
+    }
