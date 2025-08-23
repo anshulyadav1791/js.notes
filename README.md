@@ -105,10 +105,10 @@ Loops are used to execute a piece of code again & again
 
 ## String in JS
    String is a sequence of characters used to represent test
-     Create String
+     Create String  <br>
       * let str = "string.."; <br>
-     String Length
-       * str.length
-     String Indices
-       * str[0], str[1], str[2]
+     String Length   <br>
+       * str.length  <br>
+     String Indices   <br>
+       * str[0], str[1], str[2] <br>
 
