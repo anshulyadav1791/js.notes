@@ -55,7 +55,7 @@ memory1 = [data...], memory2 = [data...], memory3 = [data...] ...
     
 # Operators in js
   Ternary Operators
->   condition ? True Output:false output
+> condition ? True Output:false output
 
 Ex. age > 18 ? "adult" : "not adult";
     
