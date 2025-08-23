@@ -115,9 +115,11 @@ Loops are used to execute a piece of code again & again
       
 ## Template Literals in JS
 A way to have embedded expession in strings
-`this is a template literal`
+
+``this is a template literal``
 
 ### String Interpolation 
  To create strings by doing substitution of placeholders
-  `string text ${expression} string text`
+ 
+  ``string text ${expression} string text``
 
