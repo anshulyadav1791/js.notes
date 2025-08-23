@@ -153,8 +153,8 @@ A way to have embedded expession in strings
     let str = "hello";
     console.log(str.charAt(2));
 ## Let's Practice
-Q.. Prompt the user to enter their full name. Generale a ussername for them based on the input. Start username with @, followed by their full name and ending with the length.  <br>
-eg: username = "_____", useremail = "______"
+Q.. Prompt the user to enter their full name. Generale a ussername for them based on the input. Start username with @, followed by their full name       and ending with the length.  <br>
+    eg: username = "_____", useremail = "______"
 
 ## Arrays in JS
   Collections of items in Array   <br>
@@ -175,10 +175,10 @@ eg: username = "_____", useremail = "______"
 
 ## Let's Practice 
 Q.. For a given array with marks of students -> [98, 83, 83, 35, 43]  <br>
-Find the averge marks of the entie class.
+    Find the averge marks of the entie class.
 
 Q.. For a given array with prices of 5 items -> [98, 83, 83, 35, 43]  <br>
-All items have an offer 10% OFF on them. Change the array to store fimal price price after applying offer.
+    All items have an offer 10% OFF on them. Change the array to store fimal price price after applying offer.
 
 
 
