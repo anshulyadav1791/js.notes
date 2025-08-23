@@ -102,3 +102,8 @@ Loops are used to execute a piece of code again & again
   
   Q.. Create a game where you start with any random game number. Ask the user to keep guessing the game number until the user enters correct value.
 
+studeent Name | post
+------------- | ----
+anshu         | manager
+wabkg         | sjdfoawej
+
