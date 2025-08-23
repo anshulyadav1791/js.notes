@@ -30,7 +30,7 @@ memory1 = [data...], memory2 = [data...], memory3 = [data...] ...
    * +  -  *  /
     modulus, Exponention, Increment Decrement
 
-  * Assignment Operators
+   Assignment Operators
    * =  +=  -=  *=  %=  **=
 
   ## Comparison Operators
