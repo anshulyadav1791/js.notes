@@ -27,11 +27,12 @@ memory1 = [data...], memory2 = [data...], memory3 = [data...] ...
    Used to perform some operation on data
 
    Arithmetic Operators
-   * +  -  *  /
+     +  -  *  /
+             
     modulus, Exponention, Increment Decrement
 
    Assignment Operators
-   * =  +=  -=  *=  %=  **=
+      =  +=  -=  *=  %=  **=
 
   ## Comparison Operators
    Equal to ==   Equal to ===   Not equal to !=    not equal to type !==
