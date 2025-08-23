@@ -61,9 +61,9 @@ Ex. age > 18 ? "adult" : "not adult";
 # Loops in JS
 Loops are used to execute a piece of code again & again
 # for Loop
-for (let i = i; i <= 5; i++) {
-console.log("anshu")
-}
+    for (let i = i; i <= 5; i++) {
+    console.log("anshu")
+    }
      
 
 
