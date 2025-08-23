@@ -104,7 +104,7 @@ Loops are used to execute a piece of code again & again
   Q.. Create a game where you start with any random game number. Ask the user to keep guessing the game number until the user enters correct value.
 
 ## String in JS
-   String is a sequence of characters used to represent test
+   String is a sequence of characters used to represent test  <br>
      Create String  <br>
       * let str = "string.."; <br>
      String Length   <br>
