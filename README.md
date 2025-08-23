@@ -60,10 +60,29 @@ memory1 = [data...], memory2 = [data...], memory3 = [data...] ...
 Ex. age > 18 ? "adult" : "not adult";
 # Loops in JS
 Loops are used to execute a piece of code again & again
- for Loop
+# for Loop
     for (let i = i; i <= 5; i++) {
-    console.log("anshu")
+       console.log("anshu")
     }
-     
+    
+# Infinite Loop in js: A Loop that never ends
+    for (let i = 1; i >= 0; i++) {
+       console.log(i);
+       }
+# While Loop
+    let i = 1
+    while(i <= 10){
+        console.log(i);
+        i++;
+       }
+# do-while Loop
+    let i = 1
+    do { 
+       console.log("anshu");
+       i++;
+       } while (i <- 10);
+       
+
+    
 
 
