@@ -180,6 +180,19 @@ Q.. For a given array with marks of students -> [98, 83, 83, 35, 43]  <br>
 Q.. For a given array with prices of 5 items -> [98, 83, 83, 35, 43]  <br>
     All items have an offer 10% OFF on them. Change the array to store fimal price price after applying offer.
 
+## Array Methods 
+    push()  //add to end
+    pop()  //delete from end & return
+    toString()  //converts array to string
+    concat()  //joins multiple arrays & returns result 
+    shift()   //delete from start & return
+    slice()  //returns a piece of the array
+    splice()  //change original array (add,remove, replace)
 
-
+ ## Lets Practice
+ ### Q.. Create an array to store compaines -> "Blooberg", "Microsoft", "Uber"
+* Remove to first company form the array
+* Remove Uber & add Ola in its place
+* add Amazon at the end
+  
     
