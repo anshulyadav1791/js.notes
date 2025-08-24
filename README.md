@@ -195,4 +195,22 @@ Q.. For a given array with prices of 5 items -> [98, 83, 83, 35, 43]  <br>
 * Remove Uber & add Ola in its place
 * add Amazon at the end
   
-    
+ ##  Function in JS
+  Block of code the performes a specific task, can be invoked whenver needed
+  ### Function Definition
+      function functionName() {
+          // do some work
+          }
+### Function Call
+      functionName();
+      
+          
+    function sum( x, y) {
+   sum = x + y;
+     return sum;
+}
+
+let val = sum(4, 4);
+console.log(val);
+
+
