@@ -212,4 +212,10 @@ Q.. For a given array with prices of 5 items -> [98, 83, 83, 35, 43]  <br>
     let val = sum(4, 4);
     console.log(val);
 
+ ## Arrow Functions 
+### Compact way of writing a funcation
+    const funcationName = (param1, param2...) => {
+           // do some work
+    }
+    
 
