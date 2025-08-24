@@ -204,13 +204,12 @@ Q.. For a given array with prices of 5 items -> [98, 83, 83, 35, 43]  <br>
 ### Function Call
       functionName();
       
-          
+  ### Function        
     function sum( x, y) {
-   sum = x + y;
+     sum = x + y;
      return sum;
-}
-
-let val = sum(4, 4);
-console.log(val);
+    }
+    let val = sum(4, 4);
+    console.log(val);
 
 
