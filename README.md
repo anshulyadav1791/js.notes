@@ -217,5 +217,5 @@ Q.. For a given array with prices of 5 items -> [98, 83, 83, 35, 43]  <br>
     const funcationName = (param1, param2...) => {
            // do some work
     }
-    
+    lfyuf
 
