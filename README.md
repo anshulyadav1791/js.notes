@@ -252,9 +252,14 @@ Create a new array with the result of same operation. The value its callback ret
      console.log(evenArr)
  
 ## Reduce 
-### Performs some operations & reduce the array to a single value. IT returns that single value.
+### Performs some operations & reduce the array to a single value. It returns that single value.
     let arr = [1,2,3,4,5,6,7,8,9,10]
     const output = arr.reduce((res, curr) => {
     return res + curr;
     })
-     console.log(output)
+    console.log(output)
+## Lets Pratice
+### Q.. We ate given array of marks of students. Filter out of the marks of students that scored 90+.
+### Q.. Take a numver n as input from user. Create an array of numbers form 1 to n.
+* Use the reduce method to calculate sum of all numbers in the array.
+* Use the reduce method to calculate product of all numbers in the array.
