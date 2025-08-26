@@ -267,5 +267,5 @@ Create a new array with the result of same operation. The value its callback ret
 # What is DOM?
  ### When a wob page is loaded, the borwser create a Document Object Model (DOM) of the page.
 
- ## `window `---- `document` ---- `HTML` ---- `body` ---- `script`
- ## `html` ---- `head` ---- `meta title link`     `script` ---- `body` ---- `img h1 p div` 
+ ## `window `----> `document` ----> `HTML` ----> `body` ----> `script`
+ ## `html` ----> `head` ----> `meta title link`              `script` <---- `body` ----> `img h1 p div` 
