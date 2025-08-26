@@ -219,3 +219,16 @@ Q.. For a given array with prices of 5 items -> [98, 83, 83, 35, 43]  <br>
     }
     lfyuf
 
+## Let's Practice 
+Q.. Create a function using the "function" keyword that takes a String as an argument & returns the number of vowels in string.
+
+Q.. Create an arrow function to perform the same task.
+
+## forEach Loop in Arrays
+arr.forEach(callBackFunction)
+### CallbackFuncation: Here, it is a function to execute for each element in the array
+* A callback is a function passed as an argument to another function.
+
+  
+
+
