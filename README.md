@@ -270,3 +270,11 @@ Create a new array with the result of same operation. The value its callback ret
  ## `window `----> `document` ----> `HTML` ----> `body` ----> `script`
  ## `html` ----> `head` ----> `meta, title, link`
  ## `script` <---- `body` ----> `img, h1, p, div` 
+ 
+ ### DOM Mainpulation
+ ### `Selecting with id`
+   *document.getElementById("myId")
+ ###  `Selectiog with class`
+  * document.getElementsByClassName("myClass")
+### `Selecting with tag`
+* document.getElementsByTagName("p")
