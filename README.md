@@ -278,3 +278,11 @@ Create a new array with the result of same operation. The value its callback ret
   * document.getElementsByClassName("myClass")
 ### `Selecting with tag`
 * document.getElementsByTagName("p")
+
+## Query Selector
+  document.querySelector("myId/myclass/tag")  <br>
+  //returns frist element
+  document.querySelectorAll("myId/myClass/tag") <br>
+  //returns a NodeList
+  
+        
