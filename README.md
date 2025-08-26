@@ -273,7 +273,7 @@ Create a new array with the result of same operation. The value its callback ret
  
  ### DOM Mainpulation
  ### `Selecting with id`
-   *document.getElementById("myId")
+  * document.getElementById("myId")
  ###  `Selectiog with class`
   * document.getElementsByClassName("myClass")
 ### `Selecting with tag`
