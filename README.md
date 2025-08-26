@@ -4,7 +4,7 @@ Console.log is used to (print) a message to the console
 console.log("anshuprogrammer");
 
 
-## Varibles in JS
+# Varibles in JS
 Varibles are containers for data
 
 memory1 = [data...], memory2 = [data...], memory3 = [data...] ...
@@ -98,12 +98,12 @@ Loops are used to execute a piece of code again & again
     console.log(key, student[key])
     }
     
-# let's Practice
+## let's Practice
   Q.. Print all even numbers form 0 to 100.
   
   Q.. Create a game where you start with any random game number. Ask the user to keep guessing the game number until the user enters correct value.
 
-## String in JS
+# String in JS
    String is a sequence of characters used to represent test 
    
    ####  Create String  <br>
@@ -156,7 +156,7 @@ A way to have embedded expession in strings
 Q.. Prompt the user to enter their full name. Generale a ussername for them based on the input. Start username with @, followed by their full name and ending with the length.  <br>
     eg: username = "_____", useremail = "______"
 
-## Arrays in JS
+# Arrays in JS
   Collections of items in Array   <br>
     `let heroes = ["ironman", "hulk", "thor", "batman"];` <br>
     `let marks = [96, 79, 95, 43, 44];` <br>
@@ -195,7 +195,7 @@ Q.. For a given array with prices of 5 items -> [98, 83, 83, 35, 43]  <br>
 * Remove Uber & add Ola in its place
 * add Amazon at the end
   
- ##  Function in JS
+ #  Function in JS
   Block of code the performes a specific task, can be invoked whenver needed
   ### Function Definition
       function functionName() {
@@ -263,3 +263,9 @@ Create a new array with the result of same operation. The value its callback ret
 ### Q.. Take a numver n as input from user. Create an array of numbers form 1 to n.
 * Use the reduce method to calculate sum of all numbers in the array.
 * Use the reduce method to calculate product of all numbers in the array.
+
+# What is DOM?
+ ### When a wob page is loaded, the borwser create a Document Object Model (DOM) of the page.
+
+ ## `window`---`document`---`HTML`---`body`---`script`
+ 
