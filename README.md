@@ -251,3 +251,10 @@ Create a new array with the result of same operation. The value its callback ret
      })
      console.log(evenArr)
  
+## Reduce 
+### Performs some operations & reduce the array to a single value. IT returns that single value.
+    let arr = [1,2,3,4,5,6,7,8,9,10]
+    const output = arr.reduce((res, curr) => {
+    return res + curr;
+    })
+     console.log(output)
