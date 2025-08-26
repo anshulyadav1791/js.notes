@@ -228,7 +228,9 @@ Q.. Create an arrow function to perform the same task.
 arr.forEach(callBackFunction)
 ### CallbackFuncation: Here, it is a function to execute for each element in the array
 * A callback is a function passed as an argument to another function.
-
-  
+     ##
+      arr.forEach((val) => {
+            console.log(val);
+      });
 
 
