@@ -218,7 +218,7 @@ Q.. For a given array with prices of 5 items -> [98, 83, 83, 35, 43]  <br>
            // do some work
     }
     lfyuf
-
+  
 ## Let's Practice 
 Q.. Create a function using the "function" keyword that takes a String as an argument & returns the number of vowels in string.
 
@@ -234,6 +234,20 @@ arr.forEach(callBackFunction)
       console.log(val);
       });
       
-## Let's Practice 
-### Q 
-
+## Map
+Create a new array with the result of same operation. The value its callback returns are used to form new array
+### arr.map(callbackFnx(value,index,array))
+     let nums = [33, 44];
+     let newArr = nums.map((val) => {
+     return val * 2;
+     })
+     console.log(newArr);
+## Filter 
+ ### Creates a new array of elements that give truve for a condition/filter.
+  #### Eg: all enen elements
+     let arr = [1,2,3,4,5]
+     let evenArr = arr.filter((val) => {
+      return val % 2 ===0;
+     })
+     console.log(evenArr)
+ 
