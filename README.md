@@ -153,7 +153,7 @@ A way to have embedded expession in strings
     let str = "hello";
     console.log(str.charAt(2));
 ## Let's Practice
-Q.. Prompt the user to enter their full name. Generale a ussername for them based on the input. Start username with @, followed by their full name       and ending with the length.  <br>
+Q.. Prompt the user to enter their full name. Generale a ussername for them based on the input. Start username with @, followed by their full name and ending with the length.  <br>
     eg: username = "_____", useremail = "______"
 
 ## Arrays in JS
@@ -229,8 +229,11 @@ arr.forEach(callBackFunction)
 ### CallbackFuncation: Here, it is a function to execute for each element in the array
 * A callback is a function passed as an argument to another function.
      ##
+      let arr = [33, 44]
       arr.forEach((val) => {
-            console.log(val);
+      console.log(val);
       });
-
+      
+## Let's Practice 
+### Q 
 
