@@ -294,5 +294,5 @@ Create a new array with the result of same operation. The value its callback ret
 ### Attributes
 * getAttribute(attr)  //to get the attribute value
 * setAttribute(attr.value)  //to set the attribute value
-  ### Style
-  * node.style
+### Style
+* node.style
