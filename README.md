@@ -291,4 +291,8 @@ Create a new array with the result of same operation. The value its callback ret
   * `innerHTML:`  returns the plains text or HTML contents in the element
   * `textContent:`  returns textual content even for hidden elenments
    
-        
+### Attributes
+* getAttribute(attr)  //to get the attribute value
+* setAttribute(attr.value)  //to set the attribute value
+  ### Style
+  * node.style
