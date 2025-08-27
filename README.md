@@ -296,3 +296,11 @@ Create a new array with the result of same operation. The value its callback ret
 * setAttribute(attr.value)  //to set the attribute value
 ### Style
 * node.style
+### insert Elements 
+let el = document.createElement("div")
+* node.append(el) //adds at the end of node (inside)
+* node.perpend(el) //adds at the start of node (inside)
+* node.before(el) //adds before the node (outside)
+* node.after(el) //adds ofter the node (outside)
+## Delete Elenoent 
+* node.remove() //removes the node
