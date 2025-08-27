@@ -286,9 +286,9 @@ Create a new array with the result of same operation. The value its callback ret
   //returns a NodeList
 
   ### Propertes
-  * `tagName:` returns tage for element nodes
-  * `innerText:` returns the text content of the element and all its children
-  * `innerHTML:` returns the plains text or HTML contents in the element
-  * `textContent:` returns textual content even for hidden elenments
-  * 
+  * `tagName:`  returns tage for element nodes
+  * `innerText:`  returns the text content of the element and all its children
+  * `innerHTML:`  returns the plains text or HTML contents in the element
+  * `textContent:`  returns textual content even for hidden elenments
+   
         
