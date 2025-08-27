@@ -302,5 +302,5 @@ let el = document.createElement("div")
 * node.perpend(el) //adds at the start of node (inside)
 * node.before(el) //adds before the node (outside)
 * node.after(el) //adds ofter the node (outside)
-## Delete Elenoent 
+### Delete Elenoent 
 * node.remove() //removes the node
