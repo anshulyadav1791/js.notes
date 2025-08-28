@@ -329,7 +329,7 @@ e.target, e.type, e.clintX, e.clientY
 ## Event Listeners
 * node.addEventListener( event, callback )
 * node.removeEventListener( event, callback )
-   * Note: the callback reference should be same to remove
+ * Note: the callback reference should be same to remove
 
 ## Let'a Practice
 ### Q.. Create a toggle button that change the screen to dark-mode when clicked & light-mode when clicked again.
