@@ -321,9 +321,9 @@ let el = document.createElement("div")
 ## Event Object 
 ### It is a special object that has details about the event. 
 ### All event handlers have access to the Event Object's Properties and methods.
-   node.event = (e) => {
-   // handle here
-   } 
+    node.event = (e) => {
+    // handle here
+    } 
 e.target, e.type, e.clintX, e.clientY
 
 
