@@ -311,9 +311,9 @@ let el = document.createElement("div")
 * Now create a new class in CSS and try to append thid class to the `<p>` elements.
 * Did you notice, how you overwrite the class name when you add a new one? solve thid problem using classList.
 
-## Events in JS
-#### The changs in the state of an object is knowm as on Event
-#### Events are fired to notify code of "intersting changes" that may affect code executio.
+# Events in JS
+### The changs in the state of an object is knowm as on Event
+### Events are fired to notify code of "intersting changes" that may affect code executio.
 * Mouse events (click. double click etc.)
 * keyboard events (keypress, keyup, keydown)
 * Form events (submits etc.)
