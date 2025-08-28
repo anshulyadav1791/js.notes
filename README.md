@@ -302,5 +302,11 @@ let el = document.createElement("div")
 * node.perpend(el) //adds at the start of node (inside)
 * node.before(el) //adds before the node (outside)
 * node.after(el) //adds ofter the node (outside)
-### Delete Elenoent 
+### Delete Elements 
 * node.remove() //removes the node
+## Lets Practice 
+### Q.. Create a new button element.Give it a text "click me", background color of red & text color of white.
+* Insert the button as the first element inside the body tag.
+### Q.. Create a <p> tag in html, give it a class & some styling.
+* Now create a new class in CSS and try to append thid class to the <p> elements.
+* Did you notice, how you overwrite the class name when you add a new one? solve thid problem using classList.
