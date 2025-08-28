@@ -307,6 +307,6 @@ let el = document.createElement("div")
 ## Lets Practice 
 ### Q.. Create a new button element.Give it a text "click me", background color of red & text color of white.
 * Insert the button as the first element inside the body tag.
-### Q.. Create a <p> tag in html, give it a class & some styling.
-* Now create a new class in CSS and try to append thid class to the <p> elements.
+### Q.. Create a `<p>` tag in html, give it a class & some styling.
+* Now create a new class in CSS and try to append thid class to the `<p>` elements.
 * Did you notice, how you overwrite the class name when you add a new one? solve thid problem using classList.
