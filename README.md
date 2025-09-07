@@ -338,4 +338,4 @@ e.target, e.type, e.clintX, e.clientY
 ### A javascript object is an entity having state andbehavior (properties  and method).
 ### JS objects hava s special property called prototypes.
 ### We can set prototype using __proto__
-
+pofj
