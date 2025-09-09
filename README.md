@@ -346,3 +346,7 @@ e.target, e.type, e.clintX, e.clientY
         myMethod() {.....}
         }
         let myObj = new MyClass();
+## constructor() method is :
+* automatically invoked by
+* initializes object
+
