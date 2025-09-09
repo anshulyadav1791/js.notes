@@ -338,3 +338,11 @@ e.target, e.type, e.clintX, e.clientY
 ### A javascript object is an entity having state andbehavior (properties  and method).
 ### JS objects hava s special property called prototypes.
 ### We can set prototype using __proto__
+# Classes in JS
+### Class is a program-code template for createing objects.
+### Those objects will have same state (variables) & some behaviour (functions) inside it.
+    class MyClass {
+        constructor() {.....}
+        myMethod() {.....}
+        }
+        let myObj = new MyClass();
