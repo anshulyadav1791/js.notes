@@ -350,4 +350,4 @@ e.target, e.type, e.clintX, e.clientY
 * automatically invoked by
 * initializes object
 * inheritance
-* Super keyword
+* super keyword
