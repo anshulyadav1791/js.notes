@@ -349,4 +349,4 @@ e.target, e.type, e.clintX, e.clientY
 ## constructor() method is :
 * automatically invoked by
 * initializes object
-
+* inheritance
