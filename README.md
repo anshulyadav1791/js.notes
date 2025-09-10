@@ -362,3 +362,5 @@ Due to sychronous programmer, sometimes imp instructions get blocked due to some
 Asynochronous code execution allows to execute next instructions immediately and doesn't block the flow.
 ## Callbacks
 A callback is a function passed as an argumennt to another function.
+* Callback Hell
+* Promises
