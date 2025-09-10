@@ -357,5 +357,6 @@ e.target, e.type, e.clintX, e.clientY
 Synchronous means the code means the code runs in a particular squunce of instruction given in the program.
 Each instruction waits for the previous instruction to complete its execultion.
 
-## Asynchronous Due to sychronous programmer, sometimes imp instructions get blocked due to some previous instructions, which causes a delay in the UI. 
+## Asynchronous
+Due to sychronous programmer, sometimes imp instructions get blocked due to some previous instructions, which causes a delay in the UI. 
 Asynochronous code ex
