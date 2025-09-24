@@ -1,2 +1,1 @@
-not ke sat
 
