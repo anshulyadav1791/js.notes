@@ -1,0 +1,17 @@
+<h1>Students List</h1>
+
+<table border="1">
+    <tr>
+        <th>Name</th><th>Age</th><th>Email</th><th>City</th><th>Detail</th>
+    </tr>
+
+    {% for s in students %}
+    <tr>
+        <td>{{ s.name }}</td>
+        <td>{{ s.age }}</td>
+        <td>{{ s.email }}</td>
+        <td>{{ s.city }}</td>
+        <td><a href="{% url 'data_detail' s.pk %}">View</a></td>
+    </tr>
+    {% endfor %}
+</table>
