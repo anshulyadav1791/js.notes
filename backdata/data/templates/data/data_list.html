@@ -1,17 +1,26 @@
-<h1>Students List</h1>
+<h2>Student List</h2>
 
 <table border="1">
-    <tr>
-        <th>Name</th><th>Age</th><th>Email</th><th>City</th><th>Detail</th>
-    </tr>
+<tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Email</th>
+    <th>City</th>
+    <th>Detail</th>
+</tr>
 
-    {% for s in students %}
-    <tr>
-        <td>{{ s.name }}</td>
-        <td>{{ s.age }}</td>
-        <td>{{ s.email }}</td>
-        <td>{{ s.city }}</td>
-        <td><a href="{% url 'data_detail' s.pk %}">View</a></td>
-    </tr>
-    {% endfor %}
+{% for s in students %}
+<tr>
+    <td>{{ s.name }}</td>
+    <td>{{ s.age }}</td>
+    <td>{{ s.email }}</td>
+    <td>{{ s.city }}</td>
+    <td><a href="/detail/{{ s.id }}/">View</a></td>
+    <td><a href="/edit/{{ s.id }}/">Edit</a></td>
+    <td><a href="/delete/{{ s.id }}/">Delete</a></td>
+</tr>
+{% endfor %}
 </table>
+
+<br>
+<a href="/">Add New</a>

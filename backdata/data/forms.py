@@ -1,13 +1,7 @@
-from django.db import models
+from django import forms
+from .models import Student
 
-class Student(models.Model):
-    name = models.CharField(max_length=100)
-    age = models.PositiveIntegerField()
-    email = models.EmailField(unique=True)
-    city = models.CharField(max_length=100)
-
+class StudentForm(forms.ModelForm):
     class Meta:
-        db_table = 'data_'
-
-    def __str__(self):
-        return self.name
+        model = Student
+        fields = ['name', 'age', 'email', 'city']

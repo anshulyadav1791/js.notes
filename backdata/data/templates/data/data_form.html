@@ -1,4 +1,4 @@
-<h1>Add Student</h1>
+<h2>Add Student</h2>
 
 <form method="POST">
     {% csrf_token %}
@@ -6,4 +6,4 @@
     <button type="submit">Save</button>
 </form>
 
-<a href="{% url 'data_list' %}">See All Students</a>
+<a href="/list/">View All</a>
