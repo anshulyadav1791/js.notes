@@ -1,0 +1,25 @@
+{% extends "accounts/base.html" %}
+{% block content %}
+
+<div class="min-h-screen flex justify-center items-center bg-gray-100 px-4">
+    <div class="bg-white shadow-xl rounded-2xl p-8 w-full max-w-lg">
+        
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">
+            Welcome to your Dashboard, {{ request.user.username }}!
+        </h2>
+
+        <p class="text-gray-600 text-lg">
+            <strong>Email:</strong> {{ request.user.email }}
+        </p>
+
+        <div class="mt-6">
+            <a href="/logout/" 
+               class="inline-block bg-red-500 text-white px-5 py-2 rounded-lg hover:bg-red-600 transition">
+               Logout
+            </a>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
