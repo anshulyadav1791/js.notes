@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Profile App{% endblock %}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md p-4 flex justify-between items-center">
+        <div class="text-xl font-bold text-gray-700">ProfileApp</div>
+        <div class="space-x-4">
+            <a href="{% url 'upload_profile' %}" class="text-blue-500 hover:text-blue-700 font-medium">Upload Profile Picture</a>
+            <a href="{% url 'view_profile' %}" class="text-blue-500 hover:text-blue-700 font-medium">View Profile Picture</a>
+        </div>
+    </nav>
+
+    <!-- Messages -->
+    <div class="container mx-auto mt-4">
+        {% if messages %}
+        <ul class="space-y-2">
+            {% for message in messages %}
+            <li class="px-4 py-2 rounded {{ message.tags }} 
+                       {% if message.tags == 'error' %}bg-red-200 text-red-800{% endif %}
+                       {% if message.tags == 'success' %}bg-green-200 text-green-800{% endif %}">
+                {{ message }}
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+
+    <!-- Main content -->
+    <main class="flex-1 container mx-auto p-4">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="bg-white shadow-inner p-4 text-center text-gray-500">
+        &copy; 2025 ProfileApp. All rights reserved.
+    </footer>
+
+</body>
+</html>

@@ -16,3 +16,10 @@ def task_create(request):
         error = "Title connot be empty."        
         return render(request,'todo/task_form.html',{'error': error})
     return render(request, 'todo/task_form.html')
+
+task_update(requst, pk):
+task = get_object_or_404(Task, pk=pk)
+if request.model == 'POST':
+    title = request.POST.get('title', '').strip()
+    description = request.POST.get('description', '').strip()
+    
