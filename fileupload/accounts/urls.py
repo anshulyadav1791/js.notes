@@ -1,5 +1,5 @@
 from django.urls import path
-from . import views   # <-- add a space between '.' and 'import'
+from . import views  
 
 urlpatterns = [
     path('upload/', views.uploade_profile, name='upload_profile'),
