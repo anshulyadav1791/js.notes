@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+<div class="max-w-7xl mx-auto px-4 py-8">
+
+    <h1 class="text-4xl font-bold text-gray-800 mb-6">All Posts</h1>
+
+    <!-- Filter Form -->
+    <form method="GET" class="bg-white rounded-xl shadow p-6 mb-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+            <input
+                type="text"
+                name="q"
+                value="{{ query|default:'' }}"
+                placeholder="Search posts"
+                class="px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500"
+            >
+
+            <input
+                type="text"
+                name="catagory"
+                value="{{ catagory|default:'' }}"
+                placeholder="Category"
+                class="px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500"
+            >
+
+            <button
+                type="submit"
+                class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700"
+            >
+                Apply
+            </button>
+        </div>
+
+        {% if query or catagory %}
+        <div class="mt-4 text-sm text-gray-600">
+            <span class="font-medium">Active filters:</span>
+
+            {% if query %}
+                <span class="ml-2 bg-blue-100 text-blue-700 px-2 py-1 rounded">
+                    "{{ query }}"
+                </span>
+            {% endif %}
+
+            {% if catagory %}
+                <span class="ml-2 bg-green-100 text-green-700 px-2 py-1 rounded">
+                    {{ catagory }}
+                </span>
+            {% endif %}
+        </div>
+        {% endif %}
+    </form>
+
+    <!-- Posts -->
+    {% if posts %}
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {% for post in posts %}
+                <div class="bg-white p-6 rounded-xl shadow">
+                    <span class="text-xs text-gray-500">{{ post.category }}</span>
+
+                    <h2 class="text-xl font-semibold mt-2">
+                        {{ post.title }}
+                    </h2>
+
+                    <p class="text-gray-600 mt-2">
+                        {{ post.content|truncatewords:25 }}
+                    </p>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p class="text-center text-gray-500 mt-20">
+            No posts found
+        </p>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
