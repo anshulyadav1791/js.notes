@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.db.models import Q
-from .models import Post   # ✅ THIS LINE WAS MISSING
+from .models import Post   
 
 
 def post_list(request):
@@ -16,7 +16,7 @@ def post_list(request):
         )
 
     if catagory:
-        posts = posts.filter(catagory__iexact=catagory)  # ✅ FIXED
+        posts = posts.filter(catagory__iexact=catagory)
 
     return render(request, 'dynamic/post_list.html', {
         'posts': posts,

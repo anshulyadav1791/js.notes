@@ -1,0 +1,17 @@
+{% extends 'self/base.html' %}
+
+{% block title %}Delete Post{% endblock %}
+
+{% block content %}
+<div class="bg-white p-6 rounded shadow max-w-lg">
+    <h1 class="text-red-600 font-bold">Delete Post</h1>
+    <p class="mt-4">Are you sure you want to delete "{{ post.title }}"?</p>
+
+    <form method="post" class="mt-4">
+        {% csrf_token %}
+        <button class="bg-red-600 text-white px-4 py-2 rounded">
+            Yes, Delete
+        </button>
+    </form>
+</div>
+{% endblock %}
