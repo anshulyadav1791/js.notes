@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Data</title>
+</head>
+<body>
+
+<h1>User Data</h1>
+
+{% if data %}
+<table border="1" cellpadding="8">
+    <tr>
+        <th>Name</th>
+        <th>Subscribers</th>
+    </tr>
+
+    {% for user in data %}
+    <tr>
+        <td>{{ user.name }}</td>
+        <td>{{ user.subscribers }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+<p>No data found</p>
+{% endif %}
+
+</body>
+</html>

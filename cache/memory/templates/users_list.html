@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Users</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 60%;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>YouTube User List</h1>
+
+    {% if users %}
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Subscribers</th>
+        </tr>
+
+        {% for user in users %}
+        <tr>
+            <td>{{ user.name }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.subscribers }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+        <p>No users found.</p>
+    {% endif %}
+
+</body>
+</html>
